@@ -1,7 +1,11 @@
 'use strict';
 function str() {
+  let keyCode = event.keyCode;
+  if(keyCode === 13){
+    return false;
+  }
   return document.getElementById("inputarea").value;
-} 
+  }
 
  function number() {
    let counting_number = str().length;
