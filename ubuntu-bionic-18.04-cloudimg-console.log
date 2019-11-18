@@ -596,4 +596,11 @@ Welcome to [1mUbuntu 18.04.3 LTS[0m!
 
 Ubuntu 18.04.3 LTS ubuntu-bionic ttyS0
 
-ubuntu-bionic login: 
+ubuntu-bionic login: [[0;32m  OK  [0m] Created slice User Slice of postgres.
+         Starting User Manager for UID 111...
+[[0;32m  OK  [0m] Started Session c1 of user postgres.
+[[0;32m  OK  [0m] Started User Manager for UID 111.
+         Stopping User Manager for UID 111...
+[[0;32m  OK  [0m] Stopped User Manager for UID 111.
+[[0;32m  OK  [0m] Removed slice User Slice of postgres.
+[[0;32m  OK  [0m] Started Daily apt upgrade and clean activities.
