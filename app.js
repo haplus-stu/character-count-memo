@@ -1,9 +1,5 @@
 'use strict';
 function str() {
-  let keyCode = event.keyCode;
-  if(keyCode === 13){
-    return null;
-  }
    let str = document.getElementById("inputarea").value;
    return str.replace(/\n+/g,"");
   }
